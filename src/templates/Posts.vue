@@ -6,7 +6,7 @@
 
 <page-query>
 query Post ($path: String!) {
-  post: Posts (path: $path) {
+  post: posts (path: $path) {
     title
     content
   }
